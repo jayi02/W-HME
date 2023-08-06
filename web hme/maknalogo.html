@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HME</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 12px 20px;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <nav class="navbar bg-black p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="mr-4">
+          <img src="Logo.png" alt="Logo" class="h-20">
+        </div>
+        <div class="mr-4 ">
+          <img src="EL.png" alt="Logo" class="h-20">
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-4">
+        <a href="beeranda.html" class="text-white">Beranda</a>
+        <a href="organigram.html" class="text-white">Organisasi</a>
+        <a href="#" class="text-white">Galeri HME</a>
+        <a href="#" class="text-white">Pembayaran Kas</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button id="menu-toggle-btn" class="text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-bg py-60 text-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center">
+        <h1 class="text-6xl font-bold">Makna Logo HME</h1>
+      </div>
+    </div>
+  </section>
+  
+  <div class="text-center mt-10 tekpang-bg">
+    <img src="Logo.png" alt="logo" class="w-40 h-40">
+      <div class="text-left mt-5 tekpang-bg"> 
+        <div class="container mx-auto p-4">
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-4" id="groupSection">
+            <!-- Konten Berita 1 -->
+            <div class="tekpang-bg p-4">
+              <img src="kuning.jpg" alt="Berita 1" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Warna Kuning</h2>
+              <p class="mt-2">warna kuning melambangkan HME yang cerdas, kreatif, dan bijaksana</p>
+            </div>
+    
+            <!-- Konten Berita 2 -->
+            <div class="tekpang-bg p-4">
+              <img src="biru.jpg" alt="Berita 2" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Warna biru</h2>
+              <p class="mt-2">warna biru melambangkan HME yang stabil, percaya diri, dan tenang dalam mengambil keputusan</p>
+            </div>
+    
+          <!-- Konten Berita 3 -->
+            <div class="tekpang-bg p-4">
+              <img src="itera.png" alt="Berita 3" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Logo ITERA</h2>
+              <p class="mt-2">Logo ITERA berarti Himpunan Mahasiswa Teknik Elektro berkedudukan di Institut Teknologi Sumatera.</p>
+            </div>
+    
+            <div class="tekpang-bg p-4">
+              <img src="jabat.png" alt="Berita 4" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol dua orang bergandengan tangan</h2>
+              <p class="mt-2">simbol dua orang bergandengan tangan melambangkan teknik elektro dan teknik informatika yang walaupun berbeda wadah namun tetap merupakan keluarga.</p>
+            </div>
+
+            <div class="tekpang-bg p-4">
+              <img src="oksa.png" alt="Berita 4" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol Oktagonal</h2>
+              <p class="mt-2">simbol oktagonal bermakna bahwaa Himpunan Mahasiswa Teknik Elektro Institut Teknologi Sumatera merupakan wadah aspirasi, tempat berkumpul (kekeluargaan), dan tempat pembelajaran yang luas yang mampu menampung semua Masa Teknik Elektro Institut Teknologi Sumatera.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto p-4">
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-4" id="groupSection">
+            <!-- Konten Berita 1 -->
+            <div class="tekpang-bg p-4">
+              <img src="petir.png" alt="Berita 1" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol petir</h2>
+              <p class="mt-2">simbol petir mewakilkan salah satu konsentrasi dalam teknik elektro yaitu arus kuat/Tegangan tinggi. Simbol petir sendiri juga melambangkan teknik elektro yang pekerja keras, penuh semangat, dan bertanggung jawab</p>
+            </div>
+    
+            <!-- Konten Berita 2 -->
+            <div class="tekpang-bg p-4">
+              <img src="mikro.png" alt="Berita 2" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol mikroprosesor</h2>
+              <p class="mt-2">simbol mikroprosesor mewakilkan salah satu konsentrasi dalam teknik elektro yaitu “kontrol/kendali”. Simbol mikroprosesor sendiri melambangkan salah satu komponen yang berfungsi sebagai pusat kendali atau otak suatu sistem, yang melambangkan bahwa HME adalah himpunan yang terkendali atau terorganisir dan berhati-hati dan berani saat mengambil keputusan</p>
+            </div>
+    
+          <!-- Konten Berita 3 -->
+            <div class="tekpang-bg p-4">
+              <img src="sinyal.png" alt="Berita 3" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol sinyal</h2>
+              <p class="mt-2">simbol sinyal mewakilkan konsentrasi jaringan dalam teknik elektro. Simbol sinyal juga melambangkan bahwa HME dapat berprestasi di dalam maupun di luar kampus dan memliki jaringan relasi yang luas</p>
+            </div>
+    
+            <div class="tekpang-bg p-4">
+              <img src="rectifier.png" alt="Berita 4" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol rectifier brigde</h2>
+              <p class="mt-2">simbol rectifier brigde rangkaian penyearah gelombang penuh, yang mewakiikan konsentrasi arus lemah elektronika. Simbol ini sendiri bermakna, bahwa ketika kita telah didalam suatu organisasi/masyarakat, maka kita harus mampu menyelaraskan pemikiran agar kita dapat menyelesaikan suatu masalah secara bersama-sama</p>
+            </div>
+
+            <div class="tekpang-bg p-4">
+              <img src="garis.png" alt="Berita 4" class="w-full h-50 object-cover mb-4">
+              <h2 class="text-xl font-semibold">Simbol garis putih</h2>
+              <p class="mt-2">garis putih melingkari sisi bagian luar dari logo himpunan dan membentuk lingkaran penuh seperti roda memiliki makna kejujuran, keadilan dan kedinamisan organisasi secara kontinu untuk mewujudkan kemakmuran organisasi</p>
+            </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  
+  <style>
+    /* Ubah tinggi section sampul sesuai kebutuhan */
+    .hero-bg {
+      min-height: 150px;
+      /* Ganti URL dengan path atau link gambar yang ingin digunakan sebagai latar belakang */
+      background-image: url('riuh.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  
+    /* Ganti font sesuai preferensi Anda */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+  
+    /* Posisi teks di tengah secara horizontal dan vertikal */
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* Menengahkan vertikal */
+      height: 100%; /* Memberi tinggi 100% untuk section agar tulisan berada di tengah */
+    }
+
+    .tekpang-bg {
+      width: 100%;
+      background-color: #32CD32;
+    }
+  
+    /* Ganti warna teks jika perlu */
+    .text-white {
+      color: white;
+    }
+  </style>
+  
+  
+
+<script>
+  const menuToggleBtn = document.getElementById('menu-toggle-btn');
+  const menuLinks = document.querySelector('.hidden.md\\:flex');
+
+  menuToggleBtn.addEventListener('click', () => {
+    menuLinks.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>

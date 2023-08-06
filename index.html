@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HME</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 12px 20px;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <nav class="navbar bg-black p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="mr-4">
+          <img src="web hme/Logo.png" alt="Logo" class="h-20">
+        </div>
+        <div class="mr-4 ">
+          <img src="web hme/EL.png" alt="Logo" class="h-20">
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-4">
+        <a href="web hme/beeranda.html" class="text-white">Beranda</a>
+        <a href="web hme/organigram.html" class="text-white">Organisasi</a>
+        <a href="#" class="text-white">Galeri HME</a>
+        <a href="web hme/kas.html" class="text-white">Pembayaran Kas</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button id="menu-toggle-btn" class="text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-bg py-60 text-black">
+    <div class="container mx-auto px-4">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold">Selamat Datang di HME ITERA</h1>
+        <p class="mt-4 text-xl font-bold">SETRUM SETRUM SETRUM HME JAYA!!!</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mx-auto my-10 px-10 py-20">
+    <!-- Judul Section Berita -->
+    <h2 class="text-3xl font-semibold text-black mb-0">Berita HME</h2>
+
+    <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="groupSection">
+        <!-- Konten Berita 1 -->
+        <div class="bg-white p-4">
+          <img src="web hme/pelantikan.jpeg" alt="Berita 1" class="w-full h-32 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Pelantikan anggota Muda HME</h2>
+          <p class="mt-2">Telah berjalan pelantikan anggota muda HME pada tanggal 24 Mei 2022</p>
+          <a href="#" class="mt-4 inline-block underline text-blue-500">Baca Selengkapnya</a>
+        </div>
+
+        <!-- Konten Berita 2 -->
+        <div class="bg-white p-4">
+          <img src="web hme/riuh.jpeg" alt="Berita 2" class="w-full h-32 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Riuh Wisuda Juli 2023</h2>
+          <p class="mt-2">Telah terlaksana riuh wisuda Juli 2023 pada tanggal 17 Juli 2023</p>
+          <a href="#" class="mt-4 inline-block underline text-green-500">Baca Selengkapnya</a>
+        </div>
+
+      <!-- Konten Berita 3 -->
+        <div class="bg-white p-4">
+          <img src="web hme/abdimas.jpeg" alt="Berita 3" class="w-full h-32 object-cover mb-4">
+          <h2 class="text-xl font-semibold">ABDIMAS HME 2022</h2>
+          <p class="mt-2">Puncak ABDIMAS 2022</p>
+          <a href="#" class="mt-4 inline-block underline text-red-500">Baca Selengkapnya</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto my-0 mb-0 px-10 py-20">
+    <!-- Judul Section Berita -->
+    <h2 class="text-3xl font-semibold text-black mb-0">Informasi HME</h2>
+
+    <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4" id="groupSection">
+        <!-- Konten Berita 1 -->
+        <div class="bg-white p-4">
+          <img src="web hme/jam.jpeg" alt="Berita 1" class="w-full h-50 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Sejarah HME</h2>
+          <p class="mt-2 text-justify">HME diresmikan pada 10 mei 2019 dimana sebelumnya HME ini bergabung bersama prodi informatika dengan nama HMEI
+          HMEI dibubarkan atau dipecah menjadi HME dan HMIF pada tanggal 3 MEI 2019. Selanjutnya dengan begitu HME dibentuk dengan ketua himpunan saat Itu
+          bang akew.</p>
+          <a href="#" class="mt-4 inline-block underline text-blue-500">Baca Selengkapnya</a>
+        </div>
+
+        <!-- Konten Berita 2 -->
+        <div class="bg-white p-4">
+          <img src="web hme/Logo.png" alt="Berita 2" class="w-full h-50 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Makna Logo</h2>
+          <p class="mt-2 text-justify">Makana logo dari HME sendiri yaitu warna kuning yang mengartikan HME cerdas, kreatif, dan bijaksana,
+            lalu ada warna biru yang melambangkan HME yang stabil, percaya diri serta tenang dalam mengambil keputusan.</p>
+          <a href="web hme/maknalogo.html" class="mt-4 inline-block underline text-green-500">Baca Selengkapnya</a>
+        </div>
+
+      <!-- Konten Berita 3 -->
+        <div class="bg-white p-4">
+          <img src="web hme/buku.jpg" alt="Berita 3" class="w-full h-50 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Kepengurusan BP HME</h2>
+          <p class="mt-2 text-justify">Organigram serta progja BP HME 2023/2024</p>
+          <a href="web hme/progja.html" class="mt-4 inline-block underline text-red-500">Baca Selengkapnya</a>
+        </div>
+
+        <div class="bg-white p-4">
+          <img src="web hme/ketua.png" alt="Berita 4" class="w-full h-50 object-cover mb-4">
+          <h2 class="text-xl font-semibold">Rekam jejak ketua himpunan</h2>
+          <p class="mt-2 text-justify">Ketua himpunan dari awal berdiri HME sampai sekarang</p>
+          <a href="web hme/jejak.html" class="mt-4 inline-block underline text-yellow-500">Baca Selengkapnya</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="bg-black mx-auto p-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Section 1 -->
+      <div class="bg-black text-white p-4 flex items-center">
+        <div class="mx-auto">
+          <img src="web hme/Logo.png" alt="Gambar Section 1" class="w-32 h-32 object-cover mb-4">
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="bg-black text-white p-4">
+        <h2 class="text-2xl font-semibold">Institut Teknologi Sumatera</h2>
+        <p class="mt-2">Jl. Terusan Ryacudu, Way Huwi, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung</p>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="bg-black text-white p-4">
+        <p class="mt-2">email: HMEITERA@gmailcom</p>
+        <p class="mt-2">IG: hme_itera</p>
+      </div>
+  </div>
+</div>
+
+  <style>
+    /* Ubah tinggi section sampul sesuai kebutuhan */
+    .hero-bg {
+      min-height: 650px;
+      /* Ganti URL dengan path atau link gambar yang ingin digunakan sebagai latar belakang */
+      background-image: url('web hme/Logo.png');
+      background-size: cover;
+      background-position: center;
+    }
+  
+    /* Ganti font sesuai preferensi Anda */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+  
+    /* Posisi teks di tengah secara horizontal dan vertikal */
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* Menengahkan vertikal */
+      height: 100%; /* Memberi tinggi 100% untuk section agar tulisan berada di tengah */
+    }
+  
+    /* Ganti warna teks jika perlu */
+    .text-white {
+      color: white;
+    }
+  </style>
+  
+  
+
+<script>
+  const menuToggleBtn = document.getElementById('menu-toggle-btn');
+  const menuLinks = document.querySelector('.hidden.md\\:flex');
+
+  menuToggleBtn.addEventListener('click', () => {
+    menuLinks.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
